@@ -10,6 +10,9 @@ Clone this repo + run `npm install`.
 
 Run `npm start` to start watching and serving your game page.
 
+For examples that need to load resources run the server that serves the required assets via
+`npm run start:server`.
+
 Run `npm run build` to create a distributable version of your game inside `./dist`.
 
 ## Setup
