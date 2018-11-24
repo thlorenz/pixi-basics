@@ -1,5 +1,8 @@
-import Game from './lib/01-basics.rotating-bunny'
+import Game from './lib/02-container.bunny-column'
 import * as P from 'pixi.js'
+
+const CANVAS_WIDTH : number = 700
+const CANVAS_HEIGHT : number = 600
 
 window.addEventListener('DOMContentLoaded', initGame)
 
@@ -11,8 +14,8 @@ function removeExistingGame() : void {
 function init() : P.Application {
   removeExistingGame()
   const app = new P.Application(
-      window.outerWidth
-    , window.outerHeight
+      CANVAS_WIDTH
+    , CANVAS_HEIGHT 
     , { backgroundColor: 0x1099bb }
   )
   document.body.appendChild(app.view)
