@@ -1,4 +1,4 @@
-# pixi-examples
+# pixi-basics
 
 Following pixijs examples at https://pixijs.io/examples.
 

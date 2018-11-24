@@ -1,8 +1,8 @@
 {
-  "name": "pixi-examples",
+  "name": "pixi-basics",
   "version": "0.0.0",
   "description": "Project setup to hack on pixijs apps with as little transpilation as possible.",
-  "main": "pixi-examples.js",
+  "main": "pixi-basics.js",
   "scripts": {
     "start": "parcel index.html",
     "start:server": "cd ./lib/assets && http-server -p 1235 --cors=*",
@@ -15,9 +15,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/thlorenz/pixi-examples.git"
+    "url": "git://github.com/thlorenz/pixi-basics.git"
   },
-  "homepage": "https://github.com/thlorenz/pixi-examples",
+  "homepage": "https://github.com/thlorenz/pixi-basics",
   "dependencies": {
     "pixi.js": "~4.8.2"
   },
@@ -35,7 +35,7 @@
   },
   "license": {
     "type": "MIT",
-    "url": "https://github.com/thlorenz/pixi-examples/blob/master/LICENSE"
+    "url": "https://github.com/thlorenz/pixi-basics/blob/master/LICENSE"
   },
   "engine": {
     "node": ">=8"
