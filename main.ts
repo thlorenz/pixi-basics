@@ -1,8 +1,9 @@
-import Game from './lib/04-click.bunny'
+import Game from './lib/05-sprite.tiling'
 import * as P from 'pixi.js'
 
 // See npm run start:server inside package.json
-P.loader.baseUrl = 'http://localhost:1235/'
+const RESOURCE_URL = 'http://localhost:1235/'
+P.loader.baseUrl = RESOURCE_URL
 
 const CANVAS_WIDTH : number = 700
 const CANVAS_HEIGHT : number = 600
@@ -29,7 +30,7 @@ function init() : P.Application {
 
 function initGame() : void {
   const app = init()
-  game = new Game(app)
+  game = new Game(app, { RESOURCE_URL })
   game.start()
 }
 
