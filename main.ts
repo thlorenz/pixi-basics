@@ -1,4 +1,4 @@
-import Game from './lib/03-spritesheet.animation'
+import Game from './lib/04-click.bunny'
 import * as P from 'pixi.js'
 
 // See npm run start:server inside package.json
